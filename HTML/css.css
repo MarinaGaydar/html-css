@@ -73,3 +73,19 @@ nav div {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+table.catalog tr:first-child td {
+	border-top: none;
+}
+table.catalog tr:last-child td {
+	border-bottom: none;
+}
+table.catalog td p:first-of-type::first-letter {
+	font-size: 24pt;
+}
+table.pricelist tbody [colspan] {
+	text-align: center;
+}
+table.pricelist tbody td:last-child:not(:only-child) {
+	border: none;
+	background-color: lightgray;
+}
