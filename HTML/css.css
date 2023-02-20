@@ -1,9 +1,26 @@
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url(fonts/CaviarDreams.ttf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url(fonts/CaviarDreams_Italic.ttf);
+	font-style: italic;
+}
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url(fonts/CaviarDreams_BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
 body {
     font-family: Arial;
 }
 h1 {
     font-size: 32pt;
     font-family: Verdana;
+		text-shadow: 3pt 3pt 5pt darkgray;
 }
 h1 em {
     font-weight: normal;
@@ -43,6 +60,10 @@ table.pricelist th, table.pricelist td {
 }
 table.catalog {
 	border-collapse: collapse;
+}
+table.catalog h3 {
+	font-family: "Caviar Dreams";
+	font-size: 20pt;
 }
 table.catalog td {
 	border-top: black thin dotted;
